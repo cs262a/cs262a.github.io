@@ -1,4 +1,4 @@
-title: Shubham Mishra (@grapheo12)
+title: CS262A: Advanced Topics in Computer Systems
 template: standalone.html
 
 # CS262A: Advanced Topics in Computer Systems

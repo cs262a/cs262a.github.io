@@ -2,14 +2,14 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 
 <channel>
-  <title>Shubham Mishra (@grapheo12)</title>
-  <link>https://grapheo12.in</link>
-  <description>Shubham Mishra's profile</description>
+  <title>CS262A: Advanced Topics in Computer Systems</title>
+  <link>https://cs262a.grapheo12.in</link>
+  <description>CS262A: Advanced Topics in Computer Systems</description>
 
     {% for _title, _date, _link in other["posts"] %}
         <item>
             <title>{{ _title }}</title>
-            <link>https://grapheo12.in/{{ _link }}</link>
+            <link>https://cs262a.grapheo12.in/{{ _link }}</link>
             <pubDate>{{ _date }}</pubDate>
         </item>
     {% endfor %}
