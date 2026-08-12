@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ title }}</title>
+        {{ other_head }}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% include 'theme-init.html' %}
+        {% include 'lang.html' %}
+        {% include 'scripts.html' %}
+        {% include 'styles.html' %}
+    </head>
+    <body>
+        {% include 'nav.html' %}
+        <main class="site-main">
+            <header class="page-header">
+                <h1>{{ title }}</h1>
+            </header>
+            <ul class="post-list">
+                {% for _title, _date, _link in other["posts"] %}
+                    <li>
+                        <a href="{{ _link }}">
+                            <h2>{{ _title }}</h2>
+                            <small>{{ _date }}</small>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </main>
+        {% include 'footer.html' %}
+        {% include 'scripts-footer.html' %}
+    </body>
+</html>
