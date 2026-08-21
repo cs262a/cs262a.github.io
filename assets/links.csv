@@ -1,0 +1,56 @@
+topic_directory,paper_name,paper_link,optional
+introduction,The UNIX Time-Sharing System,https://dsf.berkeley.edu/cs262/unix.pdf,false
+databases,A History and Evaluation of System R,https://people.eecs.berkeley.edu/~brewer/cs262/SystemR-comments.pdf,false
+databases,The Design and Implementation of INGRES,https://www.cs.cmu.edu/~natassa/courses/15-721/papers/p189-stonebraker.pdf,true
+databases,ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-ahead Logging,https://cs.stanford.edu/people/chrismre/cs345/rl/aries.pdf,true
+file_systems,A Fast File System for UNIX,https://people.eecs.berkeley.edu/~brewer/cs262/FFS.pdf,false
+file_systems,The Design and Implementation of a Log-Structured File System,https://people.eecs.berkeley.edu/~brewer/cs262/LFS.pdf,false
+transactions,Granularity of Locks and Degrees of Consistency in a Shared Database,https://www.cs.cmu.edu/~15721-f24/papers/Granularities_of_Locking.pdf,false
+transactions,Principles of Transaction-Oriented Database Recovery,https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F25/handouts/papers/p287-haerder.pdf,false
+os_classics,Microkernel Operating System Architecture and Mach,https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F25/handouts/papers/USENIX-Mach92.pdf,false
+os_classics,Exokernel: An Operating System Architecture for Application-Level Resource Management,https://pdos.csail.mit.edu/6.828/2008/readings/engler95exokernel.pdf,false
+os_ii,The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors,http://people.csail.mit.edu/nickolai/papers/clements-sc.pdf,false
+os_ii,The Multikernel: A New OS Architecture for Scalable Multicore Systems,https://www.sigops.org/s/conferences/sosp/2009/papers/baumann-sosp09.pdf,false
+consensus,Paxos Made Simple,https://lamport.azurewebsites.net/pubs/paxos-simple.pdf,false
+consensus,Paxos Made Moderately Complex,https://www.cs.cornell.edu/home/rvr/Paxos/paxos.pdf,false
+consensus,In Search of an Understandable Consensus Algorithm (Raft),https://raft.github.io/raft.pdf,false
+distributed_storage,The Google File System,https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf,false
+distributed_storage,Bigtable: A Distributed Storage System for Structured Data,https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf,false
+dhts_kv_stores,Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications,https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf,false
+dhts_kv_stores,Dynamo: Amazon's Highly Available Key-value Store,http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf,false
+distributed_coordination,Coordination Avoidance in Database Systems,http://www.vldb.org/pvldb/vol8/p185-bailis.pdf,false
+distributed_coordination,CRDTs: Consistency without Concurrency Control,https://hal.inria.fr/inria-00397981/document,false
+virtualization,Formal Requirements for Virtualizable Third Generation Architectures,https://www.princeton.edu/~rblee/ELE572Papers/Fall04Readings/secureOS/popek_virtualizable.pdf,false
+virtualization,Disco: Running Commodity Operating Systems on Scalable Multiprocessors,https://web.stanford.edu/class/cs240/old/sp2014/readings/disco.pdf,false
+virtualization,Xen and the Art of Virtualization,http://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf,false
+cluster_mgmt,Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center,https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf,false
+cluster_mgmt,Large-scale Cluster Management at Google with Borg,https://research.google.com/pubs/archive/43438.pdf,false
+cluster_mgmt,"Borg, Omega, and Kubernetes",https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf,true
+scheduling,Lottery Scheduling: Flexible Proportional-Share Resource Management,https://www.usenix.org/legacy/publications/library/proceedings/osdi/full_papers/waldspurger.pdf,false
+scheduling,CFS Scheduler Design (Linux kernel documentation),https://docs.kernel.org/scheduler/sched-design-CFS.html,false
+scheduling,Dominant Resource Fairness: Fair Allocation of Multiple Resource Types,https://www.cs.berkeley.edu/~alig/papers/drf.pdf,false
+datacenter_applications,Web Search for a Planet: The Google Cluster Architecture,https://static.googleusercontent.com/media/research.google.com/en//archive/googlecluster-ieee.pdf,false
+datacenter_applications,The Tail at Scale,https://www.barroso.org/publications/TheTailAtScale.pdf,false
+datacenter_applications,Attack of the Killer Microseconds,https://www.barroso.org/publications/AttackoftheKillerMicroseconds.pdf,false
+distributed_data_processing,MapReduce: Simplified Data Processing on Large Clusters,https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf,false
+distributed_data_processing,Spark: Cluster Computing with Working Sets,https://people.eecs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf,false
+serverless,Firecracker: Lightweight Virtualization for Serverless Applications,https://www.usenix.org/system/files/nsdi20-paper-agache.pdf,false
+serverless,Unifying Serverless and Microservice Workloads with SigmaOS,http://www.abelay.me/data/sigmaos_sosp24.pdf,false
+disaggregated_cxl,"LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation",https://www.usenix.org/system/files/osdi18-shan.pdf,false
+disaggregated_cxl,Tigon: A Distributed Database for a CXL Pod,https://www.usenix.org/system/files/osdi25-huang-yibo.pdf,false
+security_privacy,Capability Myths Demolished,http://zesty.ca/capmyths/usenix.pdf,false
+security_privacy,Private Web Search with Tiptoe,https://people.csail.mit.edu/nickolai/papers/henzinger-tiptoe.pdf,false
+security_privacy,Intel SGX Explained,https://eprint.iacr.org/2016/086.pdf,true
+verification,seL4: Formal Verification of an OS Kernel,https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf,false
+verification,Using Crash Hoare Logic for Certifying the FSCQ File System,https://people.csail.mit.edu/nickolai/papers/chen-fscq.pdf,false
+verification,Push-Button Verification of File Systems via Crash Refinement (Yggdrasil),https://www.usenix.org/system/files/conference/osdi16/osdi16-sigurbjarnarson.pdf,false
+verification,Hyperkernel: Push-Button Verification of an OS Kernel,https://unsat.cs.washington.edu/papers/nelson-hyperkernel.pdf,false
+parallel_programming,Ray: A Distributed Framework for Emerging AI Applications,https://arxiv.org/pdf/1712.05889,false
+parallel_programming,"Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines",https://people.csail.mit.edu/jrk/halide-pldi13.pdf,false
+ml_programming_frameworks,TensorFlow: A System for Large-Scale Machine Learning,https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf,false
+ml_programming_frameworks,"PyTorch: An Imperative Style, High-Performance Deep Learning Library",https://arxiv.org/pdf/1912.01703,false
+inference_i,Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM),https://arxiv.org/pdf/2309.06180,false
+inference_i,NanoFlow: Towards Optimal Large Language Model Serving Throughput,https://arxiv.org/pdf/2408.12757,false
+inference_ii_multi_modal_mot,StreamDiffusion: A Pipeline-level Solution for Real-Time Interactive Generation,https://arxiv.org/pdf/2312.12491,false
+inference_ii_multi_modal_mot,"M*: A Modular, Extensible, Serving System for Multimodal Models",https://arxiv.org/pdf/2606.12688,false
+inference_ii_multi_modal_mot,Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models,https://arxiv.org/pdf/2411.04996,false
