@@ -1,0 +1,32 @@
+Topic,Date,Day,Readings
+Introduction,27-Aug,Thursday,The UNIX Time-Sharing System 
+Databases,1-Sep,Tuesday,"System R. Optional (INGRES, ARIES)"
+File systems,3-Sep,Thursday,"UNIX FS, Log structured. "
+Transactions,8-Sep,Tuesday,"GrayLocks, Principles of Transaction-Oriented Database Recovery"
+OS classics,10-Sep,Thursday,"Mach, Exokernel"
+OS (II),15-Sep,Tuesday,"Scalable commutativity, Barrelfish"
+Consensus,17-Sep,Thursday,"Paxos made simple/moderately complex, Raft"
+Distributed storage,22-Sep,Tuesday,"GFS, BigTable"
+"DHTs, KV stores",24-Sep,Thursday,"Chord, Dynamo"
+Distributed coordination,29-Sep,Tuesday,"Bailis coordination avoidance, CRDT. "
+Virtualization,1-Oct,Thursday,"Popek Goldberg, Disco, Xen"
+Cluster mgmt,6-Oct,Tuesday,"Mesos, Borg"
+Scheduling,8-Oct,Thursday,"Lottery scheduling/CFS, DRF"
+Datacenter applications,13-Oct,Tuesday,"Web search for a planet, Tail at scale, killer microseconds, TBD"
+Distributed data processing,15-Oct,Thursday,"Mapreduce, Spark"
+Serverless,20-Oct,Tuesday,"Firecracker, SigmaOS"
+Disaggregated/CXL,22-Oct,Thursday,"LegoOS, Tigon"
+Security & Privacy,27-Oct,Tuesday,Capabilties? TipToe Optional (TEEs)
+Verification?,29-Oct,Thursday,"seL4,  FSCQ, Yggdrasil, Hyperkernel?"
+Parallel programming,3-Nov,Tuesday,"Ray, Halide"
+ML programming frameworks,5-Nov,Thursday,"Tensorflow, PyTorch"
+Pre-training,10-Nov,Tuesday,
+Post-training,12-Nov,Thursday,
+Inference (I),17-Nov,Tuesday,"vLLM, Nanoflow"
+"Inference (II): Multi-modal, MoT. ",19-Nov,Thursday,"StreamDiffusion, M*"
+Thanksgiving,24-Nov,Tuesday,
+Thanksgiving,26-Nov,Thursday,
+AI for systems,1-Dec,Tuesday,Guest lecture
+Systems support for agents?,3-Dec,Thursday,Guest lecture
+OSDI deadline,8-Dec,Tuesday,
+Poster day,10-Dec,Thursday,
