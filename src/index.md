@@ -22,6 +22,15 @@ Students are expected to lead and contribute to discussions in class, while work
 **Grading**: Coming soon!
 
 
+# Announcements
+
+**[Aug 23, 2026]** Welcome to CS262A! Our first class will be on August 27.
+We will use the class Slack for all course communication and coordination.
+If you have been admitted to the course, please check your email for an invitation to join the Slack workspace.
+Before the class, please read [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf).
+We will discuss the paper in class on August 27.
+
+
 # Syllabus
 
 ### Aug 27 (Thu) — Introduction
