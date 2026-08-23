@@ -1,0 +1,32 @@
+name: Subtree Push to Same Repo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/**' # Triggers only if the subtree folder changes
+
+jobs:
+  split-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants the workflow permission to push to your repository
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required for git subtree to read full history
+
+      - name: Push Subtree to Branch
+        run: |
+          # Configure a generic Git user for the automated push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          
+          # Push the subtree folder directly to your target branch
+          git subtree push --prefix=public origin gh_pages
+
+
+
