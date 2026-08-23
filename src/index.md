@@ -118,7 +118,7 @@ We will discuss the paper in class on August 27.
 ### Oct 8 (Thu) — Scheduling
 
 - [Lottery Scheduling: Flexible Proportional-Share Resource Management](/assets/scheduling/lottery_scheduling.pdf)
-- [CFS Scheduler Design (Linux kernel documentation)](https://docs.kernel.org/scheduler/sched-design-CFS.html)
+<!-- - [CFS Scheduler Design (Linux kernel documentation)](https://docs.kernel.org/scheduler/sched-design-CFS.html) -->
 - [Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](/assets/scheduling/dominant_resource_fairness.pdf)
 
 ### Oct 13 (Tue) — Datacenter Applications
