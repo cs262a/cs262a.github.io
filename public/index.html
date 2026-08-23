@@ -738,7 +738,6 @@ pre > code.hljs {
 <p><strong>Course description:</strong> This is a graduate survey of Computer Systems covering a breadth of topics including, but not limited to, early/classical systems, file systems, transactions, distributed systems, security and AI systems.
 The objective is to get into the habit of reading systems papers, developing the ability to extract the key design insights, and being able to discuss the strengths and weaknesses of the arguments presented in the papers.
 Students are expected to lead and contribute to discussions in class, while working towards a group research project of publishable quality.</p>
-<p><strong>Prerequisites:</strong> At least two of CS 162, 161, 168, 152 or equivalent.</p>
 <p><strong>Grading</strong>: Coming soon!</p>
 <h1 id="syllabus">Syllabus</h1>
 <h3 id="aug-27-thu-introduction">Aug 27 (Thu) — Introduction</h3>
@@ -748,13 +747,25 @@ Students are expected to lead and contribute to discussions in class, while work
 <h3 id="sep-1-tue-databases">Sep 1 (Tue) — Databases</h3>
 <ul>
 <li><a href="/assets/databases/a_history_and_evaluation_of_system_r.pdf">A History and Evaluation of System R</a></li>
-<li><a href="/assets/databases/the_design_and_implementation_of_ingres.pdf">The Design and Implementation of INGRES</a> (optional)</li>
-<li><a href="/assets/databases/aries_a_transaction_recovery_method_supporting_fine_granularity_locking_and_partial_rollba.pdf">ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-ahead Logging</a> (optional)</li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="/assets/databases/the_design_and_implementation_of_ingres.pdf">The Design and Implementation of INGRES</a></li>
+<li><a href="/assets/databases/aries_a_transaction_recovery_method_supporting_fine_granularity_locking_and_partial_rollba.pdf">ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-ahead Logging</a></li>
 </ul>
 <h3 id="sep-3-thu-file-systems">Sep 3 (Thu) — File Systems</h3>
 <ul>
 <li><a href="/assets/file_systems/a_fast_file_system_for_unix.pdf">A Fast File System for UNIX</a></li>
 <li><a href="/assets/file_systems/the_design_and_implementation_of_a_log_structured_file_system.pdf">The Design and Implementation of a Log-Structured File System</a></li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li>
+<p>Debates on Log structured file system: <a href="https://www.seltzer.com/assets/publications/File-System-Logging-versus-Clustering-A-Performance-Comparison.pdf">Seltzer's Paper</a>, <a href="https://www.seltzer.com/assets/publications/ouster_critique2.html">Ousterhout's critique</a>, <a href="https://www.seltzer.com/assets/publications/ouster_critique1_rebuttal.html">Seltzer's Response</a>.</p>
+</li>
+<li>
+<p><a href="/assets/file_systems/analysis_and_evolution_of_journaling_file_systems.pdf">Analysis and evaluation of Journaling File Systems</a></p>
+</li>
 </ul>
 <h3 id="sep-8-tue-transactions">Sep 8 (Tue) — Transactions</h3>
 <ul>
@@ -767,16 +778,27 @@ Students are expected to lead and contribute to discussions in class, while work
 <li><a href="/assets/os_classics/exokernel_an_operating_system_architecture_for_application_level_resource_management.pdf">Exokernel: An Operating System Architecture for Application-Level Resource Management</a></li>
 </ul>
 <h3 id="sep-15-tue-os-ii">Sep 15 (Tue) — OS (II)</h3>
+<!-- 
+- [The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors](/assets/os_ii/the_scalable_commutativity_rule_designing_scalable_software_for_multicore_processors.pdf) -->
 <ul>
-<li><a href="/assets/os_ii/the_scalable_commutativity_rule_designing_scalable_software_for_multicore_processors.pdf">The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors</a></li>
-<li><a href="/assets/os_ii/the_multikernel_a_new_os_architecture_for_scalable_multicore_systems.pdf">The Multikernel: A New OS Architecture for Scalable Multicore Systems</a></li>
+<li>
+<p><a href="/assets/os_ii/the_multikernel_a_new_os_architecture_for_scalable_multicore_systems.pdf">The Multikernel: A New OS Architecture for Scalable Multicore Systems</a></p>
+</li>
+<li>
+<p><a href="/assets/os_ii/the_ebpf_runtime_in_the_Linux_Kernel.pdf">The eBPF Runtime in the Linux Kernel</a></p>
+</li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="">SPIN - An Extensible Microkernel for Application-specific Operating System Services</a></li>
 </ul>
 <h3 id="sep-17-thu-consensus">Sep 17 (Thu) — Consensus</h3>
 <ul>
-<li><a href="/assets/consensus/paxos_made_simple.pdf">Paxos Made Simple</a></li>
 <li><a href="/assets/consensus/paxos_made_moderately_complex.pdf">Paxos Made Moderately Complex</a></li>
 <li><a href="/assets/consensus/in_search_of_an_understandable_consensus_algorithm_raft.pdf">In Search of an Understandable Consensus Algorithm (Raft)</a></li>
 </ul>
+<p><strong>Optional:</strong>
+- <a href="/assets/consensus/paxos_made_simple.pdf">Paxos Made Simple</a></p>
 <h3 id="sep-22-tue-distributed-storage">Sep 22 (Tue) — Distributed Storage</h3>
 <ul>
 <li><a href="/assets/distributed_storage/the_google_file_system.pdf">The Google File System</a></li>
@@ -793,16 +815,18 @@ Students are expected to lead and contribute to discussions in class, while work
 <li><a href="/assets/distributed_coordination/crdts_consistency_without_concurrency_control.pdf">CRDTs: Consistency without Concurrency Control</a></li>
 </ul>
 <h3 id="oct-1-thu-virtualization">Oct 1 (Thu) — Virtualization</h3>
+<!-- - [Formal Requirements for Virtualizable Third Generation Architectures](/assets/virtualization/formal_requirements_for_virtualizable_third_generation_architectures.pdf) -->
 <ul>
-<li><a href="/assets/virtualization/formal_requirements_for_virtualizable_third_generation_architectures.pdf">Formal Requirements for Virtualizable Third Generation Architectures</a></li>
 <li><a href="/assets/virtualization/disco_running_commodity_operating_systems_on_scalable_multiprocessors.pdf">Disco: Running Commodity Operating Systems on Scalable Multiprocessors</a></li>
 <li><a href="/assets/virtualization/xen_and_the_art_of_virtualization.pdf">Xen and the Art of Virtualization</a></li>
 </ul>
 <h3 id="oct-6-tue-cluster-management">Oct 6 (Tue) — Cluster Management</h3>
 <ul>
 <li><a href="/assets/cluster_mgmt/mesos_a_platform_for_fine_grained_resource_sharing_in_the_data_center.pdf">Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center</a></li>
-<li><a href="/assets/cluster_mgmt/large_scale_cluster_management_at_google_with_borg.pdf">Large-scale Cluster Management at Google with Borg</a></li>
-<li><a href="/assets/cluster_mgmt/borg_omega_and_kubernetes.pdf">Borg, Omega, and Kubernetes</a> (optional)</li>
+</ul>
+<!-- - [Large-scale Cluster Management at Google with Borg](/assets/cluster_mgmt/large_scale_cluster_management_at_google_with_borg.pdf) -->
+<ul>
+<li><a href="/assets/cluster_mgmt/borg_omega_and_kubernetes.pdf">Borg, Omega, and Kubernetes</a></li>
 </ul>
 <h3 id="oct-8-thu-scheduling">Oct 8 (Thu) — Scheduling</h3>
 <ul>
@@ -815,11 +839,22 @@ Students are expected to lead and contribute to discussions in class, while work
 <li><a href="/assets/datacenter_applications/web_search_for_a_planet_the_google_cluster_architecture.pdf">Web Search for a Planet: The Google Cluster Architecture</a></li>
 <li><a href="/assets/datacenter_applications/the_tail_at_scale.pdf">The Tail at Scale</a></li>
 <li><a href="/assets/datacenter_applications/attack_of_the_killer_microseconds.pdf">Attack of the Killer Microseconds</a></li>
+<li><a href="/assets/datacenter_applications/ix_a_protected_dataplane_operating_system.pdf">IX: A Protected Dataplane Operating System for
+High Throughput and Low Latency</a></li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="/assets/datacenter_applications/arrakis_the_operating_system_is_the_control_plane.pdf">Arrakis: The Operating System is the Control Plane</a></li>
+<li><a href="/assets/datacenter_applications/shinjuku_preemptive_scheduling.pdf">Shinjuku: Preemptive Scheduling for $\mu$second-scale Tail Latency</a></li>
 </ul>
 <h3 id="oct-15-thu-distributed-data-processing">Oct 15 (Thu) — Distributed Data Processing</h3>
 <ul>
 <li><a href="/assets/distributed_data_processing/mapreduce_simplified_data_processing_on_large_clusters.pdf">MapReduce: Simplified Data Processing on Large Clusters</a></li>
 <li><a href="/assets/distributed_data_processing/spark_cluster_computing_with_working_sets.pdf">Spark: Cluster Computing with Working Sets</a></li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="/assets/distributed_data_processing/apache_flink_stream_and_batch_processing.pdf">Apache Flink™: Stream and Batch Processing in a Single Engine</a></li>
 </ul>
 <h3 id="oct-20-tue-serverless">Oct 20 (Tue) — Serverless</h3>
 <ul>
@@ -832,22 +867,37 @@ Students are expected to lead and contribute to discussions in class, while work
 <li><a href="/assets/disaggregated_cxl/tigon_a_distributed_database_for_a_cxl_pod.pdf">Tigon: A Distributed Database for a CXL Pod</a></li>
 </ul>
 <h3 id="oct-27-tue-security-privacy">Oct 27 (Tue) — Security &amp; Privacy</h3>
+<!-- - [Capability Myths Demolished](/assets/security_privacy/capability_myths_demolished.pdf) -->
 <ul>
-<li><a href="/assets/security_privacy/capability_myths_demolished.pdf">Capability Myths Demolished</a></li>
+<li><a href="/assets/security_privacy/eros_a_fast_capability_system.pdf">EROS: a fast capability system</a></li>
 <li><a href="/assets/security_privacy/private_web_search_with_tiptoe.pdf">Private Web Search with Tiptoe</a></li>
-<li><a href="/assets/security_privacy/intel_sgx_explained.pdf">Intel SGX Explained</a> (optional)</li>
+</ul>
+<!-- - [Intel SGX Explained](/assets/security_privacy/intel_sgx_explained.pdf) (optional) -->
+
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="/assets/security_privacy/making_information_flow_explicit_in_histar.pdf">Making Information Flow Explicit in HiStar</a></li>
 </ul>
 <h3 id="oct-29-thu-verification">Oct 29 (Thu) — Verification</h3>
 <ul>
 <li><a href="/assets/verification/sel4_formal_verification_of_an_os_kernel.pdf">seL4: Formal Verification of an OS Kernel</a></li>
-<li><a href="/assets/verification/using_crash_hoare_logic_for_certifying_the_fscq_file_system.pdf">Using Crash Hoare Logic for Certifying the FSCQ File System</a></li>
-<li><a href="/assets/verification/push_button_verification_of_file_systems_via_crash_refinement_yggdrasil.pdf">Push-Button Verification of File Systems via Crash Refinement (Yggdrasil)</a></li>
-<li><a href="/assets/verification/hyperkernel_push_button_verification_of_an_os_kernel.pdf">Hyperkernel: Push-Button Verification of an OS Kernel</a></li>
+<li><a href="/assets/verification/verus_a_practical_foundation_for_systems_verification.pdf">Verus: A Practical Foundation for Systems Verification</a></li>
 </ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="/assets/verification/using_crash_hoare_logic_for_certifying_the_fscq_file_system.pdf">Using Crash Hoare Logic for Certifying the FSCQ File System</a></li>
+</ul>
+<!-- - [Push-Button Verification of File Systems via Crash Refinement (Yggdrasil)](/assets/verification/push_button_verification_of_file_systems_via_crash_refinement_yggdrasil.pdf)
+- [Hyperkernel: Push-Button Verification of an OS Kernel](/assets/verification/hyperkernel_push_button_verification_of_an_os_kernel.pdf) -->
+
 <h3 id="nov-3-tue-parallel-programming">Nov 3 (Tue) — Parallel Programming</h3>
 <ul>
 <li><a href="/assets/parallel_programming/ray_a_distributed_framework_for_emerging_ai_applications.pdf">Ray: A Distributed Framework for Emerging AI Applications</a></li>
 <li><a href="/assets/parallel_programming/halide_a_language_and_compiler_for_optimizing_parallelism_locality_and_recomputation_in_im.pdf">Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines</a></li>
+</ul>
+<p><strong>Optional:</strong></p>
+<ul>
+<li><a href="https://erlang.org/download/armstrong_thesis_2003.pdf">Erlang: Making reliable distributed systems in the presence of software errors</a></li>
 </ul>
 <h3 id="nov-5-thu-ml-programming-frameworks">Nov 5 (Thu) — ML Programming Frameworks</h3>
 <ul>
@@ -856,11 +906,22 @@ Students are expected to lead and contribute to discussions in class, while work
 </ul>
 <h3 id="nov-10-tue-pre-training">Nov 10 (Tue) — Pre-training</h3>
 <ul>
-<li><em>Readings TBD</em></li>
+<li>
+<p><a href="/assets/pre_training/zero_memory_optimizations.pdf">ZeRO: Memory Optimizations Toward Training Trillion Parameter Models</a></p>
+</li>
+<li>
+<p><a href="/assets/pre_training/pytorch_fdsp.pdf">PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel</a></p>
+</li>
 </ul>
 <h3 id="nov-12-thu-post-training">Nov 12 (Thu) — Post-training</h3>
 <ul>
-<li><em>Readings TBD</em></li>
+<li>
+<p><a href="/assets/post_training/hybridflow.pdf">HybridFlow: A Flexible and Efficient RLHF Framework</a></p>
+</li>
+<li>
+<p><a href="/assets/post_training/openrlhf.pdf">OpenRLHF: An Easy-to-use, Scalable
+and High-performance RLHF Framework</a></p>
+</li>
 </ul>
 <h3 id="nov-17-tue-inference-i">Nov 17 (Tue) — Inference (I)</h3>
 <ul>
@@ -871,8 +932,9 @@ Students are expected to lead and contribute to discussions in class, while work
 <ul>
 <li><a href="/assets/inference_ii_multi_modal_mot/streamdiffusion_a_pipeline_level_solution_for_real_time_interactive_generation.pdf">StreamDiffusion: A Pipeline-level Solution for Real-Time Interactive Generation</a></li>
 <li><a href="/assets/inference_ii_multi_modal_mot/m_a_modular_extensible_serving_system_for_multimodal_models.pdf">M*: A Modular, Extensible, Serving System for Multimodal Models</a></li>
-<li><a href="/assets/inference_ii_multi_modal_mot/mixture_of_transformers_a_sparse_and_scalable_architecture_for_multi_modal_foundation_mode.pdf">Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models</a></li>
 </ul>
+<!-- - [Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models](/assets/inference_ii_multi_modal_mot/mixture_of_transformers_a_sparse_and_scalable_architecture_for_multi_modal_foundation_mode.pdf) -->
+
 <h3 id="nov-24-tue-thanksgiving">Nov 24 (Tue) — Thanksgiving</h3>
 <ul>
 <li><em>No class</em></li>
