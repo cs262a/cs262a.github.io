@@ -26,53 +26,53 @@ Students are expected to lead and contribute to discussions in class, while work
 
 ### Aug 27 (Thu) — Introduction
 
-- [The UNIX Time-Sharing System](/assets/introduction/the_unix_time_sharing_system.pdf)
+- [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf)
 
 ### Sep 1 (Tue) — Databases
 
-- [A History and Evaluation of System R](/assets/databases/a_history_and_evaluation_of_system_r.pdf)
+- [A History and Evaluation of System R](/assets/databases/system_r.pdf)
 
 **Optional:**
 
-- [The Design and Implementation of INGRES](/assets/databases/the_design_and_implementation_of_ingres.pdf)
-- [ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-ahead Logging](/assets/databases/aries_a_transaction_recovery_method_supporting_fine_granularity_locking_and_partial_rollba.pdf)
+- [The Design and Implementation of INGRES](/assets/databases/ingres.pdf)
+- [ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-ahead Logging](/assets/databases/aries.pdf)
 
 ### Sep 3 (Thu) — File Systems
 
-- [A Fast File System for UNIX](/assets/file_systems/a_fast_file_system_for_unix.pdf)
-- [The Design and Implementation of a Log-Structured File System](/assets/file_systems/the_design_and_implementation_of_a_log_structured_file_system.pdf)
+- [A Fast File System for UNIX](/assets/file_systems/fast_file_system.pdf)
+- [The Design and Implementation of a Log-Structured File System](/assets/file_systems/log_structured_file_system.pdf)
 
 **Optional:**
 
 - Debates on Log structured file system: [Seltzer's Paper](https://www.seltzer.com/assets/publications/File-System-Logging-versus-Clustering-A-Performance-Comparison.pdf), [Ousterhout's critique](https://www.seltzer.com/assets/publications/ouster_critique2.html), [Seltzer's Response](https://www.seltzer.com/assets/publications/ouster_critique1_rebuttal.html).
 
-- [Analysis and evaluation of Journaling File Systems](/assets/file_systems/analysis_and_evolution_of_journaling_file_systems.pdf)
+- [Analysis and evaluation of Journaling File Systems](/assets/file_systems/journaling_file_systems.pdf)
 
 ### Sep 8 (Tue) — Transactions
 
-- [Granularity of Locks and Degrees of Consistency in a Shared Database](/assets/transactions/granularity_of_locks_and_degrees_of_consistency_in_a_shared_database.pdf)
-- [Principles of Transaction-Oriented Database Recovery](/assets/transactions/principles_of_transaction-oriented_database_recovery.pdf)
+- [Granularity of Locks and Degrees of Consistency in a Shared Database](/assets/transactions/granularity_of_locks.pdf)
+- [Principles of Transaction-Oriented Database Recovery](/assets/transactions/database_recovery.pdf)
 
 ### Sep 10 (Thu) — OS Classics
 
 - [Microkernel Operating System Architecture and Mach](/assets/os_classics/mach.pdf)
-- [Exokernel: An Operating System Architecture for Application-Level Resource Management](/assets/os_classics/exokernel_an_operating_system_architecture_for_application_level_resource_management.pdf)
+- [Exokernel: An Operating System Architecture for Application-Level Resource Management](/assets/os_classics/exokernel.pdf)
 
 ### Sep 15 (Tue) — OS (II)
 <!-- 
-- [The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors](/assets/os_ii/the_scalable_commutativity_rule_designing_scalable_software_for_multicore_processors.pdf) -->
-- [The Multikernel: A New OS Architecture for Scalable Multicore Systems](/assets/os_ii/the_multikernel_a_new_os_architecture_for_scalable_multicore_systems.pdf)
+- [The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors](/assets/os_ii/scalable_commutativity_rule.pdf) -->
+- [The Multikernel: A New OS Architecture for Scalable Multicore Systems](/assets/os_ii/multikernel.pdf)
 
-- [The eBPF Runtime in the Linux Kernel](/assets/os_ii/the_ebpf_runtime_in_the_Linux_Kernel.pdf)
+- [The eBPF Runtime in the Linux Kernel](/assets/os_ii/ebpf_runtime.pdf)
 
 **Optional:**
 
-- [SPIN - An Extensible Microkernel for Application-specific Operating System Services]()
+- [SPIN - An Extensible Microkernel for Application-specific Operating System Services](/assets/os_ii/spin.pdf)
 
 ### Sep 17 (Thu) — Consensus
 
 - [Paxos Made Moderately Complex](/assets/consensus/paxos_made_moderately_complex.pdf)
-- [In Search of an Understandable Consensus Algorithm (Raft)](/assets/consensus/in_search_of_an_understandable_consensus_algorithm_raft.pdf)
+- [In Search of an Understandable Consensus Algorithm (Raft)](/assets/consensus/raft.pdf)
 
 **Optional:**
 - [Paxos Made Simple](/assets/consensus/paxos_made_simple.pdf)
@@ -80,96 +80,96 @@ Students are expected to lead and contribute to discussions in class, while work
 
 ### Sep 22 (Tue) — Distributed Storage
 
-- [The Google File System](/assets/distributed_storage/the_google_file_system.pdf)
-- [Bigtable: A Distributed Storage System for Structured Data](/assets/distributed_storage/bigtable_a_distributed_storage_system_for_structured_data.pdf)
+- [The Google File System](/assets/distributed_storage/google_file_system.pdf)
+- [Bigtable: A Distributed Storage System for Structured Data](/assets/distributed_storage/bigtable.pdf)
 
 ### Sep 24 (Thu) — DHTs, KV Stores
 
-- [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](/assets/dhts_kv_stores/chord_a_scalable_peer_to_peer_lookup_service_for_internet_applications.pdf)
-- [Dynamo: Amazon's Highly Available Key-value Store](/assets/dhts_kv_stores/dynamo_amazon_s_highly_available_key_value_store.pdf)
+- [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](/assets/dhts_kv_stores/chord.pdf)
+- [Dynamo: Amazon's Highly Available Key-value Store](/assets/dhts_kv_stores/dynamo.pdf)
 
 ### Sep 29 (Tue) — Distributed Coordination
 
-- [Coordination Avoidance in Database Systems](/assets/distributed_coordination/coordination_avoidance_in_database_systems.pdf)
-- [CRDTs: Consistency without Concurrency Control](/assets/distributed_coordination/crdts_consistency_without_concurrency_control.pdf)
+- [Coordination Avoidance in Database Systems](/assets/distributed_coordination/coordination_avoidance.pdf)
+- [CRDTs: Consistency without Concurrency Control](/assets/distributed_coordination/crdts.pdf)
 
 ### Oct 1 (Thu) — Virtualization
 
-<!-- - [Formal Requirements for Virtualizable Third Generation Architectures](/assets/virtualization/formal_requirements_for_virtualizable_third_generation_architectures.pdf) -->
-- [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](/assets/virtualization/disco_running_commodity_operating_systems_on_scalable_multiprocessors.pdf)
-- [Xen and the Art of Virtualization](/assets/virtualization/xen_and_the_art_of_virtualization.pdf)
+<!-- - [Formal Requirements for Virtualizable Third Generation Architectures](/assets/virtualization/virtualizable_architectures.pdf) -->
+- [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](/assets/virtualization/disco.pdf)
+- [Xen and the Art of Virtualization](/assets/virtualization/xen.pdf)
 
 ### Oct 6 (Tue) — Cluster Management
 
-- [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](/assets/cluster_mgmt/mesos_a_platform_for_fine_grained_resource_sharing_in_the_data_center.pdf)
-<!-- - [Large-scale Cluster Management at Google with Borg](/assets/cluster_mgmt/large_scale_cluster_management_at_google_with_borg.pdf) -->
-- [Borg, Omega, and Kubernetes](/assets/cluster_mgmt/borg_omega_and_kubernetes.pdf)
+- [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](/assets/cluster_mgmt/mesos.pdf)
+<!-- - [Large-scale Cluster Management at Google with Borg](/assets/cluster_mgmt/borg.pdf) -->
+- [Borg, Omega, and Kubernetes](/assets/cluster_mgmt/borg_omega_kubernetes.pdf)
 
 ### Oct 8 (Thu) — Scheduling
 
-- [Lottery Scheduling: Flexible Proportional-Share Resource Management](/assets/scheduling/lottery_scheduling_flexible_proportional_share_resource_management.pdf)
+- [Lottery Scheduling: Flexible Proportional-Share Resource Management](/assets/scheduling/lottery_scheduling.pdf)
 - [CFS Scheduler Design (Linux kernel documentation)](https://docs.kernel.org/scheduler/sched-design-CFS.html)
-- [Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](/assets/scheduling/dominant_resource_fairness_fair_allocation_of_multiple_resource_types.pdf)
+- [Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](/assets/scheduling/dominant_resource_fairness.pdf)
 
 ### Oct 13 (Tue) — Datacenter Applications
 
-- [Web Search for a Planet: The Google Cluster Architecture](/assets/datacenter_applications/web_search_for_a_planet_the_google_cluster_architecture.pdf)
-- [The Tail at Scale](/assets/datacenter_applications/the_tail_at_scale.pdf)
-- [Attack of the Killer Microseconds](/assets/datacenter_applications/attack_of_the_killer_microseconds.pdf)
+- [Web Search for a Planet: The Google Cluster Architecture](/assets/datacenter_applications/google_cluster_architecture.pdf)
+- [The Tail at Scale](/assets/datacenter_applications/tail_at_scale.pdf)
+- [Attack of the Killer Microseconds](/assets/datacenter_applications/killer_microseconds.pdf)
 - [IX: A Protected Dataplane Operating System for
-High Throughput and Low Latency](/assets/datacenter_applications/ix_a_protected_dataplane_operating_system.pdf)
+High Throughput and Low Latency](/assets/datacenter_applications/ix_dataplane.pdf)
 
 **Optional:**
 
-- [Arrakis: The Operating System is the Control Plane](/assets/datacenter_applications/arrakis_the_operating_system_is_the_control_plane.pdf)
-- [Shinjuku: Preemptive Scheduling for $\mu$second-scale Tail Latency](/assets/datacenter_applications/shinjuku_preemptive_scheduling.pdf)
+- [Arrakis: The Operating System is the Control Plane](/assets/datacenter_applications/arrakis.pdf)
+- [Shinjuku: Preemptive Scheduling for $\mu$second-scale Tail Latency](/assets/datacenter_applications/shinjuku.pdf)
 
 ### Oct 15 (Thu) — Distributed Data Processing
 
-- [MapReduce: Simplified Data Processing on Large Clusters](/assets/distributed_data_processing/mapreduce_simplified_data_processing_on_large_clusters.pdf)
-- [Spark: Cluster Computing with Working Sets](/assets/distributed_data_processing/spark_cluster_computing_with_working_sets.pdf)
+- [MapReduce: Simplified Data Processing on Large Clusters](/assets/distributed_data_processing/mapreduce.pdf)
+- [Spark: Cluster Computing with Working Sets](/assets/distributed_data_processing/spark.pdf)
 
 **Optional:**
 
-- [Apache Flink™: Stream and Batch Processing in a Single Engine](/assets/distributed_data_processing/apache_flink_stream_and_batch_processing.pdf)
+- [Apache Flink™: Stream and Batch Processing in a Single Engine](/assets/distributed_data_processing/apache_flink.pdf)
 
 
 ### Oct 20 (Tue) — Serverless
 
-- [Firecracker: Lightweight Virtualization for Serverless Applications](/assets/serverless/firecracker_lightweight_virtualization_for_serverless_applications.pdf)
-- [Unifying Serverless and Microservice Workloads with SigmaOS](/assets/serverless/unifying_serverless_and_microservice_workloads_with_sigmaos.pdf)
+- [Firecracker: Lightweight Virtualization for Serverless Applications](/assets/serverless/firecracker.pdf)
+- [Unifying Serverless and Microservice Workloads with SigmaOS](/assets/serverless/sigmaos.pdf)
 
 ### Oct 22 (Thu) — Disaggregated/CXL
 
-- [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](/assets/disaggregated_cxl/legoos_a_disseminated_distributed_os_for_hardware_resource_disaggregation.pdf)
-- [Tigon: A Distributed Database for a CXL Pod](/assets/disaggregated_cxl/tigon_a_distributed_database_for_a_cxl_pod.pdf)
+- [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](/assets/disaggregated_cxl/legoos.pdf)
+- [Tigon: A Distributed Database for a CXL Pod](/assets/disaggregated_cxl/tigon.pdf)
 
 ### Oct 27 (Tue) — Security & Privacy
 
-<!-- - [Capability Myths Demolished](/assets/security_privacy/capability_myths_demolished.pdf) -->
-- [EROS: a fast capability system](/assets/security_privacy/eros_a_fast_capability_system.pdf)
-- [Private Web Search with Tiptoe](/assets/security_privacy/private_web_search_with_tiptoe.pdf)
-<!-- - [Intel SGX Explained](/assets/security_privacy/intel_sgx_explained.pdf) (optional) -->
+<!-- - [Capability Myths Demolished](/assets/security_privacy/capability_myths.pdf) -->
+- [EROS: a fast capability system](/assets/security_privacy/eros.pdf)
+- [Private Web Search with Tiptoe](/assets/security_privacy/tiptoe.pdf)
+<!-- - [Intel SGX Explained](/assets/security_privacy/intel_sgx.pdf) (optional) -->
 
 **Optional:**
 
-- [Making Information Flow Explicit in HiStar](/assets/security_privacy/making_information_flow_explicit_in_histar.pdf)
+- [Making Information Flow Explicit in HiStar](/assets/security_privacy/histar.pdf)
 
 ### Oct 29 (Thu) — Verification
 
-- [seL4: Formal Verification of an OS Kernel](/assets/verification/sel4_formal_verification_of_an_os_kernel.pdf)
-- [Verus: A Practical Foundation for Systems Verification](/assets/verification/verus_a_practical_foundation_for_systems_verification.pdf)
+- [seL4: Formal Verification of an OS Kernel](/assets/verification/sel4.pdf)
+- [Verus: A Practical Foundation for Systems Verification](/assets/verification/verus.pdf)
 
 **Optional:**
 
-- [Using Crash Hoare Logic for Certifying the FSCQ File System](/assets/verification/using_crash_hoare_logic_for_certifying_the_fscq_file_system.pdf)
-<!-- - [Push-Button Verification of File Systems via Crash Refinement (Yggdrasil)](/assets/verification/push_button_verification_of_file_systems_via_crash_refinement_yggdrasil.pdf)
-- [Hyperkernel: Push-Button Verification of an OS Kernel](/assets/verification/hyperkernel_push_button_verification_of_an_os_kernel.pdf) -->
+- [Using Crash Hoare Logic for Certifying the FSCQ File System](/assets/verification/fscq.pdf)
+<!-- - [Push-Button Verification of File Systems via Crash Refinement (Yggdrasil)](/assets/verification/yggdrasil.pdf)
+- [Hyperkernel: Push-Button Verification of an OS Kernel](/assets/verification/hyperkernel.pdf) -->
 
 ### Nov 3 (Tue) — Parallel Programming
 
-- [Ray: A Distributed Framework for Emerging AI Applications](/assets/parallel_programming/ray_a_distributed_framework_for_emerging_ai_applications.pdf)
-- [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](/assets/parallel_programming/halide_a_language_and_compiler_for_optimizing_parallelism_locality_and_recomputation_in_im.pdf)
+- [Ray: A Distributed Framework for Emerging AI Applications](/assets/parallel_programming/ray.pdf)
+- [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](/assets/parallel_programming/halide.pdf)
 
 **Optional:**
 
@@ -177,14 +177,14 @@ High Throughput and Low Latency](/assets/datacenter_applications/ix_a_protected_
 
 ### Nov 5 (Thu) — ML Programming Frameworks
 
-- [TensorFlow: A System for Large-Scale Machine Learning](/assets/ml_programming_frameworks/tensorflow_a_system_for_large_scale_machine_learning.pdf)
-- [PyTorch: An Imperative Style, High-Performance Deep Learning Library](/assets/ml_programming_frameworks/pytorch_an_imperative_style_high_performance_deep_learning_library.pdf)
+- [TensorFlow: A System for Large-Scale Machine Learning](/assets/ml_programming_frameworks/tensorflow.pdf)
+- [PyTorch: An Imperative Style, High-Performance Deep Learning Library](/assets/ml_programming_frameworks/pytorch.pdf)
 
 ### Nov 10 (Tue) — Pre-training
 
-- [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](/assets/pre_training/zero_memory_optimizations.pdf)
+- [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](/assets/pre_training/zero_optimizations.pdf)
 
-- [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](/assets/pre_training/pytorch_fdsp.pdf)
+- [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](/assets/pre_training/pytorch_fsdp.pdf)
 
 ### Nov 12 (Thu) — Post-training
 
@@ -195,14 +195,14 @@ and High-performance RLHF Framework](/assets/post_training/openrlhf.pdf)
 
 ### Nov 17 (Tue) — Inference (I)
 
-- [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](/assets/inference_i/efficient_memory_management_for_large_language_model_serving_with_pagedattention_vllm.pdf)
-- [NanoFlow: Towards Optimal Large Language Model Serving Throughput](/assets/inference_i/nanoflow_towards_optimal_large_language_model_serving_throughput.pdf)
+- [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](/assets/inference_i/vllm.pdf)
+- [NanoFlow: Towards Optimal Large Language Model Serving Throughput](/assets/inference_i/nanoflow.pdf)
 
 ### Nov 19 (Thu) — Inference (II): Multi-modal, MoT
 
-- [StreamDiffusion: A Pipeline-level Solution for Real-Time Interactive Generation](/assets/inference_ii_multi_modal_mot/streamdiffusion_a_pipeline_level_solution_for_real_time_interactive_generation.pdf)
-- [M\*: A Modular, Extensible, Serving System for Multimodal Models](/assets/inference_ii_multi_modal_mot/m_a_modular_extensible_serving_system_for_multimodal_models.pdf)
-<!-- - [Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models](/assets/inference_ii_multi_modal_mot/mixture_of_transformers_a_sparse_and_scalable_architecture_for_multi_modal_foundation_mode.pdf) -->
+- [StreamDiffusion: A Pipeline-level Solution for Real-Time Interactive Generation](/assets/inference_ii_multi_modal_mot/streamdiffusion.pdf)
+- [M\*: A Modular, Extensible, Serving System for Multimodal Models](/assets/inference_ii_multi_modal_mot/mstar.pdf)
+<!-- - [Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models](/assets/inference_ii_multi_modal_mot/mixture_of_transformers.pdf) -->
 
 ### Nov 24 (Tue) — Thanksgiving
 
