@@ -224,11 +224,11 @@ and High-performance RLHF Framework](/assets/post_training/openrlhf.pdf)
 
 ### Dec 1 (Tue) — AI for Systems
 
-- *Guest lecture; readings TBD*
+- *Guest lecture; Readings TBD*
 
 ### Dec 3 (Thu) — Systems Support for Agents
 
-- *Guest lecture; readings TBD*
+- *Guest lecture; Readings TBD*
 
 ### Dec 8 (Tue) — OSDI Deadline
 
