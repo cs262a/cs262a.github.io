@@ -19,16 +19,11 @@ The objective is to get into the habit of reading systems papers, developing the
 Students are expected to lead and contribute to discussions in class, while working towards a group research project of publishable quality.
 
 
-**Grading**: Coming soon!
+**Grading**:
 
-
-# Announcements
-
-**[Aug 24, 2026]** Welcome to CS262A! Our first class will be on August 27.
-We will use the class Slack for all course communication and coordination.
-If you have been admitted to the course, please check your email for an invitation to join the Slack workspace.
-Before the class, please read [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf).
-We will discuss the paper in class on August 27.
+- 40% Class Participation (includes Paper Reviews). 
+- 20% Paper Presentation.
+- 40% Course Project.
 
 
 # Syllabus
