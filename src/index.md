@@ -179,7 +179,7 @@ High Throughput and Low Latency](/assets/datacenter_applications/ix_dataplane.pd
 ### Nov 3 (Tue) — Parallel Programming
 
 - [Ray: A Distributed Framework for Emerging AI Applications](/assets/parallel_programming/ray.pdf)
-- [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](/assets/parallel_programming/halide.pdf)
+- [Halide: Decoupling Algorithms from Schedules for High-Performance Image Processing](/assets/parallel_programming/halide.pdf)
 
 **Optional:**
 
