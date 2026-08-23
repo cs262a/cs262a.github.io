@@ -75,6 +75,7 @@ Students are expected to lead and contribute to discussions in class, while work
 - [In Search of an Understandable Consensus Algorithm (Raft)](/assets/consensus/raft.pdf)
 
 **Optional:**
+
 - [Paxos Made Simple](/assets/consensus/paxos_made_simple.pdf)
 
 
