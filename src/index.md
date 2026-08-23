@@ -21,12 +21,12 @@ Students are expected to lead and contribute to discussions in class, while work
 
 **Grading**:
 
-- 40% Class Participation (includes Paper Reviews). 
-- 20% Paper Presentation.
-- 40% Course Project.
+- 40%: class participation (includes paper reviews). 
+- 20%: paper presentations.
+- 40%: course project.
 
 
-# Syllabus
+# Schedule
 
 ### Aug 27 (Thu) — Introduction
 
