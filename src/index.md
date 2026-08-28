@@ -34,7 +34,7 @@ Reviews are due 24 hours before class.
 
 ### Aug 27 (Thu) — Introduction
 
-- [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf) [Slides](/assets/slides/Intro.pdf)
+- [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf) ([Slides](/assets/slides/Intro.pdf))
 
 ### Sep 1 (Tue) — Databases
 
