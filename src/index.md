@@ -27,13 +27,14 @@ Students are expected to lead and contribute to discussions in class, while work
 
 
 **Paper Reviews**: Please submit your reviews [here](https://docs.google.com/forms/d/e/1FAIpQLSfevQSH0lgyMZtHVAQw7qfHfte2MSNXo9tLWfzcqPvermY3sw/viewform?usp=sharing&ouid=111301588409301165028).
+Reviews are due 24 hours before class.
 
 
 # Schedule
 
 ### Aug 27 (Thu) — Introduction
 
-- [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf)
+- [The UNIX Time-Sharing System](/assets/introduction/unix_time_sharing.pdf) [Slides](/assets/slides/Intro.pdf)
 
 ### Sep 1 (Tue) — Databases
 
