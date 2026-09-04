@@ -38,7 +38,7 @@ Reviews are due 24 hours before class.
 
 ### Sep 1 (Tue) — Databases
 
-- [A History and Evaluation of System R](/assets/databases/system_r.pdf)
+- [A History and Evaluation of System R](/assets/databases/system_r.pdf) ([Slides](/assets/slides/02-SystemR.pdf))
 
 **Optional:**
 
@@ -49,6 +49,8 @@ Reviews are due 24 hours before class.
 
 - [A Fast File System for UNIX](/assets/file_systems/fast_file_system.pdf)
 - [The Design and Implementation of a Log-Structured File System](/assets/file_systems/log_structured_file_system.pdf)
+
+[Slides](/assets/slides/file_systems.pdf)
 
 **Optional:**
 
